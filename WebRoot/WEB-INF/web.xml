@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>userLog</servlet-name>
+    <servlet-class>servlet.userLog</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userRegister</servlet-name>
+    <servlet-class>servlet.userRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productInfor</servlet-name>
+    <servlet-class>servlet.productInfor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>dealProduct</servlet-name>
+    <servlet-class>servlet.dealProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>servlet.search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logOut</servlet-name>
+    <servlet-class>servlet.logOut</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>userLog</servlet-name>
+    <url-pattern>/servlet/userLog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userRegister</servlet-name>
+    <url-pattern>/servlet/userRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productInfor</servlet-name>
+    <url-pattern>/servlet/productInfor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dealProduct</servlet-name>
+    <url-pattern>/dealProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/servlet/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logOut</servlet-name>
+    <url-pattern>/servlet/logOut</url-pattern>
+  </servlet-mapping>
+
+</web-app>
